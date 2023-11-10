@@ -22,7 +22,7 @@ keypair = "Obas"
 
 ami = "ami-0505148b3591e4c07"
 
-account_no = 348999790472
+account_no = 193326728199
 
 master-password = "admin12345"
 

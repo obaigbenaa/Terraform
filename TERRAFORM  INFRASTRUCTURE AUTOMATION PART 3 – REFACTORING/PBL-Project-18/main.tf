@@ -45,7 +45,7 @@ module "VPC" {
   environment                         = var.environment
   public_subnets                      = [for i in range(6, 9, 2) : cidrsubnet(var.vpc_cidr, 8, i)]
   private_subnets                     = [for i in range(1, 8, 2) : cidrsubnet(var.vpc_cidr, 8, i)]
-  
+
 
 }
 
